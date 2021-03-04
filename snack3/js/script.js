@@ -13,7 +13,7 @@ var j = 0;
 
 do {
 
-  lista.push(nomi[Math.floor(Math.random() * 3 )] + " " + cognomi[Math.floor(Math.random() * 3 )]);
+  lista.push(nomi[Math.floor(Math.random() * nomi.length )] + " " + cognomi[Math.floor(Math.random() * cognomi.length )]);
 
   j++;
 

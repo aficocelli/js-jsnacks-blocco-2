@@ -5,15 +5,13 @@ falsa lista di 3 invitati.*/
 
 var nomi = ["Alfredo", "Samuele", "Francesco", "Pierpaolo", "Luca"];
 
-var cognomi = ["Bianchi", "Rossi", "Verdi"; "Gialli", "Neri"];
+var cognomi = ["Bianchi", "Rossi", "Verdi", "Gialli", "Neri"];
 
 var lista = [];
 
 var j = 0;
 
 do {
-
-
 
   lista.push(nomi[Math.floor(Math.random() * 3 )] + " " + cognomi[Math.floor(Math.random() * 3 )]);
 

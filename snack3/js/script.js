@@ -13,9 +13,9 @@ var j = 0;
 
 do {
 
-  i = Math.floor(Math.random() * 3 )
 
-  lista.push(nomi[i] + " " + cognomi[i]);
+
+  lista.push(nomi[Math.floor(Math.random() * 3 )] + " " + cognomi[Math.floor(Math.random() * 3 )]);
 
   j++;
 

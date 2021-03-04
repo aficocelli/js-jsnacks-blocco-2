@@ -5,7 +5,7 @@ falsa lista di 3 invitati.*/
 
 var nomi = ["Alfredo", "Samuele", "Francesco", "Pierpaolo", "Luca"];
 
-var cognomi = ["Bianchi", "Rossi", "Verdi"; "Gialli"; "Neri"];
+var cognomi = ["Bianchi", "Rossi", "Verdi"; "Gialli", "Neri"];
 
 var lista = [];
 

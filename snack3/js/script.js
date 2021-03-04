@@ -17,7 +17,7 @@ do {
 
   j++;
 
-} while( j < nomi.length);
+} while( lista.length < nomi.length);
 
 
 

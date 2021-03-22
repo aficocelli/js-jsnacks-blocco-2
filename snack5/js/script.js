@@ -29,14 +29,35 @@ var team = [
 ];
 
 
+const NewTeam = team.map((item) => {
 
-  for( var i = 0; i < team.length; i++){
+   Math.floor(Math.random() * (10 - 1)) + 1;
 
-    var numeroRandom = Math.floor(Math.random() * (100 - 1)) + 1;
+  item.falli = Math.floor(Math.random() * (10 - 1)) + 1;
 
-    team[i].falli = numeroRandom;
-    delete team[i].punti;
-  }
-  
+  item.punti = Math.floor(Math.random() * (10 - 1)) + 1;
 
-  console.log(team);
+  // let { nome, falli } = item;
+
+  let nome = item.nome;
+
+  let falli = item.falli;
+
+  return {nome, falli};
+
+});
+
+console.log(NewTeam);
+
+
+console.log(team);
+  // for( var i = 0; i < team.length; i++){
+  //
+  //   var numeroRandom = Math.floor(Math.random() * (100 - 1)) + 1;
+  //
+  //   team[i].falli = numeroRandom;
+  //   delete team[i].punti;
+  // }
+  //
+  //
+  // console.log(team);
